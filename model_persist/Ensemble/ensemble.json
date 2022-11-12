@@ -1,0 +1,16 @@
+{
+    "name": "Ensemble",
+    "ml_task": "multiclass_classification",
+    "optimize_metric": "logloss",
+    "selected_models": [
+        {
+            "model": "6_Default_RandomForest",
+            "repeat": 3.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.1471922366109628,
+    "train_time": 0.18395423889160156,
+    "is_stacked": false
+}
